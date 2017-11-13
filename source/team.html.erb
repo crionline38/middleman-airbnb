@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <h2 class="text-center">This template is built with <i class="fa fa-heart"></i> by</h2>
+  <ul class="list-inline text-center">
+    <% ["Mayat90", "crionline38"].each do |gh_username| %>
+      <li>
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle img-team" %>
+        <h3><%= gh_username.capitalize %></h3>
+        <a href="http://github.com/<%= gh_username.downcase %>"><i class="fa fa-github"></i> <%= gh_username.capitalize %></a>
+      </li>
+    <% end %>
+  </ul>
+
+</div>
+<div class="wrapper2">
+
+</div>

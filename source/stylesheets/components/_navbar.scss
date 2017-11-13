@@ -9,7 +9,10 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.navbar-wagon-logo {
+  display: flex;
+  align-items: center;
+}
 /* Logo */
 .navbar-wagon-brand img {
   height: 50px;
